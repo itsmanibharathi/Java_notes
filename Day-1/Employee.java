@@ -35,7 +35,5 @@ public class Employee {
         obj1.displaye();
         System.out.println(); //sout
 
-
     }
 }
-
