@@ -13,6 +13,6 @@ public class Bank{
         this.balance=balance;
     }
     void deposit(double amount){
-
+        this.
     }
 }
