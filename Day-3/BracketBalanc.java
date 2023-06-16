@@ -6,15 +6,15 @@ public class BracketBalanc{
             char x = val.charAt(i);
             if(x=='('|| x== '{'|| x== '['){
                 sc.push(x);
-                System.out.println("-->"+x);
+                // System.out.println("-->"+x);
             }
             else if(x==')'||x=='}'||x==']'){
                 if(sc.peek()==x){
-                    System.out.println(x);
+                    // System.out.println(x);
                     return false;
                 }
                 else{
-                    System.out.println(x);
+                    // System.out.println(x);
                     sc.pop();
                 }
             }
@@ -22,6 +22,6 @@ public class BracketBalanc{
         return (sc.isEmpty());
     }
     public static void main(String str[]){
-        System.out.print(check("{([])}"));
+        System.out.print(check("{()([]{})}"));
     }
 }
